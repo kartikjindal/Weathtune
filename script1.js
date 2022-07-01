@@ -17,7 +17,6 @@ async function getWeatherByLocation(city){
      <h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /> ${temp}°C <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /></h2>  
      <small>${data.weather[0].main}</small>  
      `;  
-    //  cleanup   
      main.innerHTML= "";  
       main.appendChild(weather);  
    };  
